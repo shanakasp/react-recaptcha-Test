@@ -10,7 +10,6 @@ const Login = () => {
   const [recaptchaToken, setRecaptchaToken] = useState(null);
 
   const siteKey = "6LfVhmoqAAAAABi8wXMpfUCscx8a03poUwZ9mJV-";
-  const secretKey = "6LfVhmoqAAAAACM8ZpT81msjniDSPXrHS76y06u1"; // Secret key for demo purpose
 
   const handleSubmit = (e) => {
     e.preventDefault();
