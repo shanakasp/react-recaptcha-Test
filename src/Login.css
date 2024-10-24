@@ -1,0 +1,133 @@
+/* Login.css */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #0d6efd, #22c55e);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-left {
+  flex: 1;
+  padding: 3rem;
+  background: linear-gradient(135deg, #22c55e, #a7f3d0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-left p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.login-right {
+  flex: 1;
+  padding: 3rem;
+  background-color: #f9fafb;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+h2 {
+  color: #1f2937;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem 3rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #f3f4f6;
+  font-size: 1rem;
+  color: #111827;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.input-group input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #4b5563;
+}
+
+.forgot-password {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.remember-me input {
+  margin-right: 0.5rem;
+}
+
+.recaptcha {
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #0d6efd, #22c55e);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #0b5ed7, #16a34a);
+}
